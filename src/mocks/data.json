@@ -1,0 +1,116 @@
+{
+  "pizzas": {
+    "items": [
+      {
+        "id": 1,
+        "title": "Cheese",
+        "desc": "Classic recipe",
+        "priceDollar": 8,
+        "priceEuro": 7.45,
+        "img": "cheese.jpeg"
+      },
+      {
+        "id": 2,
+        "title": "Diablo",
+        "desc": "Classic recipe",
+        "priceDollar": 10,
+        "priceEuro": 9.30,
+        "img": "diablo.png"
+      },
+      {
+        "id": 3,
+        "title": "Hawaii",
+        "desc": "Classic recipe",
+        "priceDollar": 7,
+        "priceEuro": 6.50,
+        "img": "hawaii.png"
+      },
+      {
+        "id": 4,
+        "title": "Pepperoni",
+        "desc": "Classic recipe",
+        "priceDollar": 6,
+        "priceEuro": 5.55,
+        "img": "pepperoni.png"
+      },
+      {
+        "id": 5,
+        "title": "Veggy",
+        "desc": "Classic recipe",
+        "priceDollar": 7,
+        "priceEuro": 6.50,
+        "img": "veggy.png"
+      },
+      {
+        "id": 6,
+        "title": "Veggy ",
+        "desc": "Classic recipe",
+        "priceDollar": 5,
+        "priceEuro": 5.50,
+        "img": "veggy-2.png"
+      },
+      {
+        "id": 7,
+        "title": "Hawaii",
+        "desc": "Classic recipe",
+        "priceDollar": 7,
+        "priceEuro": 6.50,
+        "img": "hawaii.png"
+      },
+      {
+        "id": 8,
+        "title": "Cheese",
+        "desc": "Classic recipe",
+        "priceDollar": 8,
+        "priceEuro": 7.45,
+        "img": "cheese.jpeg"
+      }
+    ]
+  },
+  "orders": [
+    {
+      "name": "John",
+      "email": "test@nomail.com",
+      "items": [
+        {
+          "amount": "1",
+          "desc": "Classic recipe",
+          "id": "2",
+          "price": "$ 10",
+          "title": "Diablo"
+        },
+        {
+          "amount": "2",
+          "desc": "Classic recipe",
+          "id": "2",
+          "price": "$ 10",
+          "title": "Hawaii"
+        }
+      ],
+      "total": "$ 25",
+      "delivery": true
+    },
+    {
+      "name": "John",
+      "email": "test@nomail.com",
+      "items": [
+        {
+          "amount": "1",
+          "desc": "Classic recipe",
+          "id": "1",
+          "price": "$ 10",
+          "title": "Diablo"
+        },
+        {
+          "amount": "2",
+          "desc": "Classic recipe",
+          "id": "2",
+          "price": "$ 10",
+          "title": "Hawaii"
+        }
+      ],
+      "total": "$ 25",
+      "delivery": true
+    }
+  ]
+}

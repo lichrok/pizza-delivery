@@ -1,0 +1,178 @@
+.navbar-brand {
+  height: 60px;
+  width: auto;
+}
+
+.navbar {
+  background-color: $orange;
+}
+
+.navbar-nav {
+  li {
+    display: flex;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-right: 10px;
+    }
+  }
+
+  &__link {
+    color: $white;
+  }
+}
+
+.currency-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.currency {
+  overflow: hidden;
+
+  input {
+    visibility: hidden;
+    position: absolute;
+
+    &:checked + label {
+      background-color: $white;
+      color: $black;
+    }
+  }
+
+  label {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: $white;
+    margin-bottom: 0;
+  }
+}
+
+.navbar-nav__cart {
+  position: relative;
+}
+
+.navbar-nav__items {
+  position: absolute;
+  top: 0;
+  right: -9px;
+  display: block;
+  border-radius: 50%;
+  background-color: $white;
+  font-size: 12px;
+  color: $black;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-content {
+  margin-top: auto;
+}
+
+.card-title {
+  margin-bottom: 1rem;
+}
+
+.card-price {
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+.card-image {
+  position: relative;
+  text-align: center;
+}
+
+.card-img {
+  width: auto;
+  max-height: 150px;
+  max-width: 100%;
+}
+
+.cart-icon {
+  height: 40px;
+  width: auto;
+
+  path {
+    fill: $white;
+  }
+}
+
+.card-add-icon {
+  width: 35px;
+  height: 35px;
+
+  path {
+    fill: $red;
+  }
+}
+
+.card-add-btn {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+  transition: transform .3s ease-in-out;
+
+  &:hover {
+    transform: scale(1.2);
+  }
+}
+
+.content {
+  margin-top: 100px;
+}
+
+.list-group-item {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.list-group-img {
+  width: 100px;
+  height: auto;
+}
+
+.chevron-icon {
+  width: 15px;
+  height: 15px;
+
+  path {
+    fill: $white;
+  }
+
+  &.is-reversed {
+    transform: rotate(180deg);
+  }
+}
+
+.card-remove-icon {
+  width: 15px;
+  height: 15px;
+  transform: rotate(45deg);
+
+  path {
+    fill: $white;
+  }
+}
+
+.form-check-input {
+  &:disabled + label {
+    color: $gray-500;
+  }
+}
